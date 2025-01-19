@@ -1,0 +1,44 @@
+/* Main container for the application */
+.App {
+  text-align: center; /* Centers all text within the application */
+}
+
+/* Logo styling */
+.App-logo {
+  height: 40vmin; /* Sets the height of the logo to 40% of the viewport's minimum dimension */
+  pointer-events: none; /* Disables any pointer events (e.g., clicking) on the logo */
+}
+
+/* Applies animation to the logo when reduced motion is not preferred */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear; /* Spins the logo indefinitely with a 20-second duration */
+  }
+}
+
+/* Header styling */
+.App-header {
+  background-color: #282c34; /* Sets the header's background to a dark shade */
+  min-height: 100vh; /* Ensures the header takes up at least the full viewport height */
+  display: flex; /* Enables flexbox layout for child elements */
+  flex-direction: column; /* Stacks child elements vertically */
+  align-items: center; /* Centers child elements horizontally */
+  justify-content: center; /* Centers child elements vertically */
+  font-size: calc(10px + 2vmin); /* Dynamically adjusts font size based on the viewport size */
+  color: white; /* Sets the text color to white for visibility against the dark background */
+}
+
+/* Link styling */
+.App-link {
+  color: #61dafb; /* Sets the link color to a bright blue shade */
+}
+
+/* Keyframe animation for spinning the logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); /* Initial state: no rotation */
+  }
+  to {
+    transform: rotate(360deg); /* Final state: full 360-degree rotation */
+  }
+}

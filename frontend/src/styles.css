@@ -1,0 +1,50 @@
+/* Apply global styles to the body */
+body {
+    font-family: Arial, sans-serif; /* Set a clean and readable font for the entire document */
+    padding: 20px; /* Add padding around the body content */
+}
+
+/* Style for the main heading (h1) */
+h1 {
+    text-align: center; /* Center-align the heading */
+}
+
+/* General styles for div containers */
+div {
+    margin-bottom: 20px; /* Add space below each div to separate sections */
+}
+
+/* Style for input fields */
+input {
+    margin-right: 10px; /* Add space to the right of input fields */
+    padding: 5px; /* Add inner padding for better usability */
+}
+
+/* Style for buttons */
+button {
+    padding: 5px 10px; /* Add padding for better clickability */
+    background-color: #007bff; /* Set a blue background color */
+    color: white; /* Set the text color to white for contrast */
+    border: none; /* Remove the default border */
+    cursor: pointer; /* Change the cursor to a pointer to indicate clickability */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #0056b3; /* Darken the background color when hovered */
+}
+
+/* Style for unordered lists */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for list items */
+li {
+    padding: 10px; /* Add padding inside each list item */
+    border: 1px solid #ccc; /* Add a light gray border around list items */
+    margin-bottom: 5px; /* Add space between list items */
+    display: flex; /* Use flexbox layout for better alignment */
+    justify-content: space-between; /* Align content with space between */
+}
